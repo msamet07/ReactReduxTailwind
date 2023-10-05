@@ -18,7 +18,7 @@ const Header = () => {
       
         <input className='h-10 rounded-lg px-4' type="text" placeholder='Arama Yapınız...'/>
       
-      <div onClick={()=>dispatch(modalFunc)} className='bg-indigo-800 w-10 h-10 rounded-full flex items-center justify-center cursor-pointer'>
+      <div onClick={()=>dispatch(modalFunc())} className='bg-indigo-800 w-10 h-10 rounded-full flex items-center justify-center cursor-pointer'>
           <MdAddchart size={24} />
       </div>
     </div>

@@ -5,7 +5,7 @@ const ProductCard = () => {
   
   return (
     <div>
-      ProductCard
+     <ProductCard/>
     </div>
   )
 }

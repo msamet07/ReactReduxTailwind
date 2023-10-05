@@ -6,16 +6,17 @@ import Modal from '../components/Modal'
 
 
 const Product = () => {
-  const {modal} =useSelector(state =>state.modal )
+  const {modal} =useSelector(state =>state.modal)
 
-  console.log(modal ,"modal")
-  return (
+
+  const buttonFunc = () =>{
+
+  };
     <div>
-     
       <ProductCard/>
-      {modal && <Modal/>}
+      {modal && <Modal title={"ürün oluştur"} btnText={"oluştur"} btnFunc={buttonFunc}/>}
     </div>
-  )
-}
+
+};
 
 export default Product
